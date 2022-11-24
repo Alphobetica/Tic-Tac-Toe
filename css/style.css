@@ -1,0 +1,82 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+*{
+  background: #131313;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  width: 225px;
+  padding-top: 100px;
+  column-gap: 0;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  color: #985eff;
+}
+h2 {
+  border: 1px solid #985eff;
+  width: 75px;
+  height: 75px;
+  margin: 0;
+  text-align: center;
+  padding-top: 30%;
+  overflow: hidden;
+  color: #985eff;
+}
+h3{
+  color: #985eff;
+  text-align: center;
+}
+button{
+  text-align: center;
+  background: #5300e1;
+  color: #985eff;
+  border:  3px solid #985eff;
+}
+span{
+  color: #985eff;
+}
+section{
+  text-align: center;
+}
+#topLeft, #midLeft, #botLeft{
+  border-left: none
+}
+#topLeft, #topMid, #topRight{
+  border-top: none;
+}
+
+#bot, #botLeft, #botRight{
+  border-bottom: none;
+}
+
+#topRight, #midRight, #botRight{
+  border-right: none
+}
+
+.hidden {
+  display: none;
+}
